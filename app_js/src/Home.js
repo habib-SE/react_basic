@@ -1,10 +1,13 @@
-import React,{component} from 'react';
-class Home extends component
+
+import React, { Component } from 'react';
+import './Home.css';
+class Home extends Component
  {
   render() {
     return (
       <div>
-    <p>This is first progrm in React</p>
+    <p className='test'>This is first progrm in React</p>
+    <button className='btn btn-primary'>click</button>
       </div>
     );
   }
