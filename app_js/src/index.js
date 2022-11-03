@@ -1,13 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Home from './Home';
+import Card from './Components/Card';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Home />
+    <Card
+    image="https://randomuser.me/portraits/men/22.jpg"
+    name="Raja"
+    jiond="jiond in 2020"
+    desc="I am living in swabi "
+    noOfFriends="20"
+     />
   </React.StrictMode>
 );
 
