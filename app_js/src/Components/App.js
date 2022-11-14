@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Details from './Details'
 import Image from './Image'
 import Counter from "./Counter";
+import ShowHides from "./ShowHides";
+import Lists from "./Lists";
 export default class App extends Component{
   render(){
     return(
@@ -22,6 +24,8 @@ export default class App extends Component{
      url="https://randomuser.me/portrait/women/11.jpg"
      />
      <Counter />
+     <ShowHides />
+     <Lists />
       </div>
     );
   }
