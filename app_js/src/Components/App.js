@@ -4,6 +4,8 @@ import Image from './Image'
 import Counter from "./Counter";
 import ShowHides from "./ShowHides";
 import Lists from "./Lists";
+import Life from "./Life";
+import Events from "./Events";
 export default class App extends Component{
   render(){
     return(
@@ -26,6 +28,8 @@ export default class App extends Component{
      <Counter />
      <ShowHides />
      <Lists />
+     <Life />
+     <Events />
       </div>
     );
   }
